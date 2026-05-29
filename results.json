@@ -1,0 +1,106 @@
+{
+  "moons": {
+    "single-layer": {
+      "loss": 0.608572326276564,
+      "accuracy": 0.7875,
+      "precision": 0.7948717948717948,
+      "recall": 0.775,
+      "f1": 0.7848101265822784,
+      "roc_auc": 0.8021875,
+      "confusion": [
+        [
+          32,
+          8
+        ],
+        [
+          9,
+          31
+        ]
+      ],
+      "threshold": 0.5161741005041003,
+      "config": {
+        "lr": 0.1,
+        "batch_size": 8,
+        "hidden": null,
+        "val_loss": 0.5587812226122226
+      }
+    },
+    "perceptron": {
+      "loss": 0.08719747286856241,
+      "accuracy": 0.975,
+      "precision": 0.975,
+      "recall": 0.975,
+      "f1": 0.975,
+      "roc_auc": 0.994375,
+      "confusion": [
+        [
+          39,
+          1
+        ],
+        [
+          1,
+          39
+        ]
+      ],
+      "threshold": 0.1905189575188316,
+      "config": {
+        "lr": 0.1,
+        "batch_size": 8,
+        "hidden": 8,
+        "val_loss": 0.06847963564324391
+      }
+    }
+  },
+  "classification": {
+    "single-layer": {
+      "loss": 0.5275091932591673,
+      "accuracy": 0.975,
+      "precision": 1.0,
+      "recall": 0.95,
+      "f1": 0.9743589743589743,
+      "roc_auc": 0.975,
+      "confusion": [
+        [
+          20,
+          0
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "threshold": 0.5023105857863001,
+      "config": {
+        "lr": 0.1,
+        "batch_size": 8,
+        "hidden": null,
+        "val_loss": 0.5377015713651271
+      }
+    },
+    "perceptron": {
+      "loss": 0.10763249810111161,
+      "accuracy": 0.975,
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "f1": 0.975609756097561,
+      "roc_auc": 1.0,
+      "confusion": [
+        [
+          19,
+          1
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "threshold": 0.1841902882514927,
+      "config": {
+        "lr": 0.01,
+        "batch_size": 32,
+        "hidden": 32,
+        "val_loss": 0.28483866945455194
+      }
+    }
+  }
+}
